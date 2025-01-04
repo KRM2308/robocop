@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+    
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      background-image: radial-gradient(circle, #1a1a1a 0%, #0a0a0a 100%);
+    }
+
+    .glow {
+      text-shadow: 0 0 5px #e60000, 0 0 10px #e60000, 0 0 20px #e60000;
+    }
+
+    .neon-border {
+      border: 2px solid #e60000;
+      box-shadow: 0 0 5px #e60000, 0 0 10px #e60000;
+    }
